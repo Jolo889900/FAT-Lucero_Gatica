@@ -1,0 +1,133 @@
+body{
+    background: black;
+    color:black;
+    margin-bottom:5%;
+    display:grid;
+    grid-template-rows: 20%;
+    grid-template-columns:100%;
+    font-family:'roboto';
+    overflow:hidden;
+
+}
+
+.ff-text {
+    position: relative;
+    margin-left: 40%;
+    margin-top: -570px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: black;
+} 
+
+.cuadroBlanco{
+    border-radius: 50px;
+    border-radius: 50px;
+    background: #A8894B;
+    margin:6%;
+    margin-top:4%;
+    margin-bottom:-40%;
+    padding-top:0%;
+    padding-left:10%;
+    padding-bottom:0%;
+    border-radius: 15px;
+    background-color: #A8894B;
+    grid-row: 1;
+    grid-column:1;
+}
+.iconos {
+    margin-top: 15%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.forma_fondo {
+    position: absolute;
+    width: 100%;
+    height: 5.5vh;
+    background: #DFD19C;
+}
+
+.forma_fondo1 {
+    position: absolute;
+    margin-top: 0.5vh;
+    width: 100%;
+    height: 1vh;
+    background: #DFD19C;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 3 / 2 / 4 / 2; }
+.div3 { grid-area: 3 / 2 / 4 / 3; }
+.div4 { grid-area: 3 / 3 / 4 / 4; }
+
+.sidebar {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 420px;
+    background: #DFD19C;
+}
+
+.flechamenu {
+    border-color: transparent;
+    position: absolute;
+    top: 7px;
+    left: 220px;
+    background-color: #DFD19C;
+    background-image: url(flecha1.png);
+    background-position: center;
+    background-size: 25px 18px;
+    position: absolute;
+    width: 25.2px;
+    height: 18.2px;
+}
+
+.logo_menu {
+    border-color: transparent;
+    position: absolute;
+    top: 14px;
+    left: 70px;
+    background-color: #DFD19C;
+    background-image: url(imagen-logo.png);
+    background-position: center;
+    background-size: 100px 100px;
+    position: absolute;
+    width: 100.2px;
+    height: 100.2px;
+}
+
+.imgperfil {
+    border-color: transparent;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    background-color: #DFD19C;
+    background-image: url(perfil1.png);
+    background-position: center;
+    background-size: 35px 35px;
+    width: 35.3px;
+    height: 35.3px;
+}
+
+.nombre_perfil {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #1F190E;
+}

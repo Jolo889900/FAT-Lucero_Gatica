@@ -1,0 +1,284 @@
+body{
+    background: black;
+    color:black;
+    margin-bottom:5%;
+    display:grid;
+    grid-template-rows: 20%;
+    grid-template-columns:100%;
+    font-family:'roboto';
+    overflow:hidden;
+    /* overflow-x:hidden; */
+    /* overflow-y:hidden; */
+}
+
+
+.cuadroBlanco{
+    border-radius: 50px;
+    border-radius: 50px;
+    background: #A8894B;
+    /* box-shadow:  35px 35px 70px #525252,
+                -35px -35px 70px #ffffff; */
+    margin:6%;
+    margin-top:4%;
+    margin-bottom:-40%;
+    padding-top:0%;
+    padding-left:10%;
+    padding-bottom:0%;
+    border-radius: 15px;
+    background-color: #A8894B;
+    grid-row: 1;
+    grid-column:1;
+
+    
+}
+
+
+.buttonBack{
+    margin-bottom: -21%;
+    margin-left: 35%;
+    margin-top: 15%;
+
+}
+
+.libreta{
+    margin-top: 5%;
+    margin-left:0%;    
+}
+
+
+
+tr{
+    margin-top: 15%;
+    margin: left -500px;
+}
+td{
+    align-content:center;
+    padding-right: 250px;
+    padding-left: -150px;
+}
+
+.desaprobado{
+    background-color: rgba(255, 0, 0, 0.37);
+}
+.aprobado{
+    background-color: rgba(3, 248, 3, 0.452);
+}
+
+.button, .backMenu{
+    margin: 8% 0% 10% 1%;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+  button:hover {
+    background-color: #00ffc8 ;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
+  .sidebar {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 420px;
+    background: #DFD19C;
+}
+
+.flechamenu {
+    border-color: transparent;
+    position: absolute;
+    top: 7px;
+    left: 220px;
+    background-color: #DFD19C;
+    background-image: url(flecha1.png);
+    background-position: center;
+    background-size: 25px 18px;
+    position: absolute;
+    width: 25.2px;
+    height: 18.2px;
+}
+
+.logo_menu {
+    border-color: transparent;
+    position: absolute;
+    top: 14px;
+    left: 70px;
+    background-color: #DFD19C;
+    background-image: url(imagen-logo.png);
+    background-position: center;
+    background-size: 100px 100px;
+    position: absolute;
+    width: 100.2px;
+    height: 100.2px;
+}
+
+.imgperfil {
+    border-color: transparent;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    background-color: #DFD19C;
+    background-image: url(perfil1.png);
+    background-position: center;
+    background-size: 35px 35px;
+    width: 35.3px;
+    height: 35.3px;
+}
+
+.nombre_perfil {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #1F190E;
+}
+
+.home {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #1F190E;
+}
+
+.flechamenu1 {
+    border-color: transparent;
+    position: absolute;
+    top: 186px;
+    left: 14px;
+    background-color: #DFD19C;
+    background-image: url(flecha2.png);
+    background-position: center;
+    background-size: 25px 18px;
+    position: absolute;
+    width: 25.2px;
+    height: 18.2px;
+}
+
+.cn_perfil {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #1F190E;
+}
+
+.flechamenu2 {
+    border-color: transparent;
+    position: absolute;
+    top: 236px;
+    left: 14px;
+    background-color: #DFD19C;
+    background-image: url(flecha2.png);
+    background-position: center;
+    background-size: 25px 18px;
+    position: absolute;
+    width: 25.2px;
+    height: 18.2px;
+}
+
+.m_perfil {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #1F190E;
+}
+
+.flechamenu3 {
+    border-color: transparent;
+    position: absolute;
+    top: 286px;
+    left: 14px;
+    background-color: #DFD19C;
+    background-image: url(flecha2.png);
+    background-position: center;
+    background-size: 25px 18px;
+    position: absolute;
+    width: 25.2px;
+    height: 18.2px;
+}
+
+.md_perfil {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #1F190E;
+}
+
+.flechamenu4 {
+    border-color: transparent;
+    position: absolute;
+    top: 336px;
+    left: 14px;
+    background-color: #DFD19C;
+    background-image: url(flecha2.png);
+    background-position: center;
+    background-size: 25px 18px;
+    position: absolute;
+    width: 25.2px;
+    height: 18.2px;
+}
+
+.menu a {
+    position: absolute;
+    left: 75px;
+    top: 396px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #1F190E;
+}
