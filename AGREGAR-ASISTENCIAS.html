@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial sacle=1.0">
+        <title>Agregar asistencia</title>
+        <link rel="stylesheet" href="styles/ESTILO-AGREGAR-ASISTENCIAS.css">
+    </head>
+    <body>
+        <main>
+            <a href="HOME-ADMIN.HTML">
+                <button class="backMenu" type="button">Home</button>    
+            </a>
+            <div class="menu"></div>
+            <div class="forma_fondo"></div>
+            <h1 class="ff-text">IMDF</h1>
+            
+            <div class="forma_fondo1"></div>
+            <div class="contenedor-agregar-asistencia">
+                <h1>AGREGAR ASISTENCIAS</h1>
+                <form action="" class="formulario__agregar_asistencia">
+                    <h2 class="fecha">Fecha</h2>
+                    <input type="date" placeholder="Fecha" id="fecha-agregar-asistencia"min="2022-01-01" max="2022-12-31">>
+                    <h2 class="nombre">Nombre</h2>
+                    <input type="text" placeholder="Nombre" class="Nombre" id="nombre-agregar-asistencia">
+                    <input type="text" placeholder="Asistencia" class="Asistencia" id="asistencias-agegar-asistencia">
+                    <input type="submit" value="Guardar" id="boton-Guardar-agregar-asistencia">     
+                </form> 
+                <table class="default">
+                    <tr>
+                      <td>Alumno | </td>
+                      <td>Nota | </td>
+                      <td>Estado</td>
+                    </tr>
+                </table>
+                <input type="button" class="b1" value="Modificar" id="boton-agregar-asistencia">
+            </div>
+        </main>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>

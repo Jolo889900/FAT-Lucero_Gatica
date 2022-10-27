@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial sacle=1.0">
+        <title>Agregar Trabajo</title>
+        <link rel="stylesheet" href="styles/ESTILO-AGREGAR-TRABAJO.css">
+    </head>
+    <body>
+        <main>
+            <a href="HOME-ADMIN.HTML">
+                <button class="backMenu" type="button">Home</button>    
+            </a>
+            <div class="menu"></div>
+            <div class="forma_fondo"></div>
+            <h1 class="ff-text">IMDF</h1>
+            
+            <div class="forma_fondo1"></div>
+            <div class="contenedor-agregar-trabajo">
+                <h1>AGREGAR TRABAJO</h1>
+                <form action="" class="formulario__agregar_trabajo">
+                    <h2>Nombre</h2>
+                    <input type="text" placeholder="Nombre" id="nombre-agregar-trabajo">
+                    <h2>Descripcion</h2>
+                    <input type="text" placeholder="descripcion" id="descripcion-agregar-trabjao">
+                    <input type="submit"  class="boton-agregar" value="Agregar" id="boton-agregar-trabajo">
+                 </form action="" class="formulario__agregar_trabajo">      
+            </div class="contenedor-agregar-trabajo">
+        </main>
+        <div id="sidebar" class="sidebar">
+            <a href="#" class="flechamenu" onclick="ocultar()">X</a>
+            <ul class="menu">
+                <li>
+                    <div class="logo_menu"></div>
+                </li>i>
+                <li>
+                    <input type="button" class="flechamenu1">
+                    <a href="homeUser.html" class="home" style="left: 55px; top: 188px;">Home</a>
+                </li>
+                <li>
+                    <input type="button" class="flechamenu2">
+                    <a href="consultNotebook.html" class="cn_perfil" style="left: 55px; top: 238px;">Consultar notas</a>
+                </li>
+                <li>
+                    <input type="button" class="flechamenu3">
+                    <a href="consultSpecificMatter.html" class="m_perfil" style="left: 55px; top: 288px;">Materias</a>
+                </li>
+                <li>
+                    <input type="button" class="flechamenu4">
+                    <a href="consultDeprecatedMatter.html" class="md_perfil" style="left: 55px; top: 338px;">Materias desaprobadas</a>
+                </li>
+                <li>
+                    <a href="index.html">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </div>
+        <script>
+            function mostrar() {
+                document.getElementById("sidebar").style.display = "block";
+                document.getElementById("contenedor-agregar-alumno").style.marginLeft = "300px";
+                document.getElementById("botonimagen").style.display = "none";
+                document.getElementById("flechamenu").style.display = "inline";
+            }
+    
+            function ocultar() {
+                document.getElementById("sidebar").style.display = "none";
+                document.getElementById("contenedor-agregar-alumno").style.marginLeft = "0";
+                document.getElementById("botonimagen").style.display = "inline";
+                document.getElementById("flechamenu").style.display = "none";
+            }
+        </script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

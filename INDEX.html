@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/styleIndex.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plataforma Educativa</title>
+    
+</head>
+<body>
+    
+    <div class="forma_fondo"></div>
+            <h1 class="ff-text">IMDF</h1>
+    <div class="cuadroBlanco">
+        <div class="log">
+
+            <div class="User">
+                <input class="user" type="text" placeholder="Usuario...">
+            </div>
+            <div class="Pass">
+                <input class="pass" type="password" placeholder="Contraseña...">
+            </div>
+            <div class="btn">
+                <input type="submit" class="button" onclick="login()" INGRESAR>
+            </div>
+        </div class="log">
+    </div>
+    <script src="js/index.js" ></script>
+    <script>const login = () =>{
+        let username = document.querySelector(".user").value; 
+        let password = document.querySelector(".pass").value;
+        admins.forEach(admin => {
+            if((username === admin.user)&&(password === admin.pass)){
+                location.href='HOME-ADMIN.html'
+            }else if((username != admin.user)&&(password != admin.pass)){
+                alumnos.forEach(alumno => {
+                    if((username === alumno.user)&&(password === alumno.pass)){
+                        location.href = 'homeUser.html'
+                    }else{
+                        alert('Datos Incorrectos')
+                    }
+    
+                })
+            }else{
+            }
+        })
+    }</script>
+
+</body>
+</html>

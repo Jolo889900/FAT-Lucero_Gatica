@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial sacle=1.0">
+        <title>Agregar Alumno</title>
+        <link rel="stylesheet" href="styles/ESTILO-AGREGAR-ALUMNO.css">
+    </head>
+    <body>
+        <main>
+            <div class='cuadroBlanco'>
+                <a href="HOME-ADMIN.HTML">
+                    <button class="backMenu" type="button">Home</button>    
+                </a>
+            <div class="menu"></div>
+            <div class="forma_fondo"></div>
+            <h1 class="ff-text">IMDF</h1>
+            
+            <div class="forma_fondo1"></div>
+            <div class="contenedor-agregar-alumno">
+               
+                <form action="" class="formulario">
+                    <h4>NOMBRE Y APELLIDO</h4>
+                    <input  required type="text" class="nombre" placeholder="NOMBRE del Alumno">
+                    <h4>DNI</h4>
+                    <input   type="text" class="dni" placeholder="DNI del Alumno" required>
+                    <h4>CURSO</h4>
+                    <input   type="text" class="curso" placeholder="CURSO del Alumno" required>
+                    <h4>TELEFONO</h4>
+                    <input   type="text" class="telefono" placeholder="TELEFONO del Alumno/Padres" required>
+                    <h4>CORREO</h4>
+                    <input   type="text" class="correo" placeholder="CORREO del Alumno" required>
+                    <h4>USUARIO</h4>
+                    <input   type="text" class="usuario" placeholder="USUARIO del Alumno" required>
+                    <h4>CONTRASEÑA</h4>
+                    <input   type="text" class="contraseña" placeholder="Contraseña de la cuenta de usuario" required>
+                </form>
+                <section class="buttonSend">
+                    <button class="sendButton" type="button" onclick='createUser()'>Agregar Alumno</button>
+                </section>
+        </main>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
