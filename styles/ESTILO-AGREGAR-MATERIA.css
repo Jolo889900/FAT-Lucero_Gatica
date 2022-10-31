@@ -70,6 +70,8 @@ body {
     margin: 80 40;
     padding-left: -10px;
     padding-top: 10px;
+    color:white;
+    font-size: 4mm;
 }
 .contenedor-agregar-materia form h2{
     color: rgb(255, 255, 255);

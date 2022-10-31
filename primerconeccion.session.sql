@@ -31,3 +31,6 @@ CREATE TABLE usuario_materia(
     cod_materia INT,
     FOREIGN KEY(cod_usuario) references usuario(cod_usuario),
     FOREIGN KEY(cod_materia) references materias(cod_materia));
+
+
+

@@ -52,7 +52,7 @@ body {
 }
 .contenedor-agregar-nota h1{
     position: relative;
-    margin-top: 15px;
+    margin-top: 20px;
     left: 3.12%;
     right: 2.89%;
     top: 10.14%;
@@ -68,7 +68,7 @@ body {
 }
 .contenedor-agregar-nota input[type="submit"]{
     position: absolute;
-    margin-top:250px ;
+    margin-top:300px ;
     width: 250px;
     height: 34px;
     left: 350px;
@@ -112,7 +112,7 @@ body {
 .logo_menu {
     border-color: transparent;
     position: absolute;
-    top: 14px;
+    top: 16px;
     left: 70px;
     background-color: #DFD19C;
     background-image: url(imagen-logo.png);
@@ -277,3 +277,109 @@ body {
     color: #1F190E;
 }
     
+.cuadroBlanco  h1{
+    position: relative;
+    margin-top: 15px;
+    left: 3.12%;
+    right: 2.89%;
+    top: 25%;
+    bottom: 74.31%;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #A8894B;
+}
+.cuadroBlanco form{
+    margin: 80 40;
+    padding-left: -10px;
+    padding-top: 10px;
+    color:white;
+    font-size: 4mm;
+}
+.cuadroBlanco form h2{
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin: 1px;
+    left: 3.12%;
+    right: 90%;
+    top: 30%;
+    bottom: 69.58%;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.cuadroBlanco input{
+    box-sizing: border-box;
+    background: #212629;
+    border: 1px solid #A8894B;
+    position: relative;
+    width: 638px;
+    height: 38px;
+    left: 180px;
+    top: 0px;
+    margin: -5px;
+    color: white;
+}
+.cuadroBlanco input:hover{
+    border-color: #DFD19C;
+}
+.cuadroBlanco form .curso-aparte{
+    box-sizing: border-box;
+    position: absolute;
+    width: 207px;
+    height: 34px;
+    left: 180px;
+    top: 250;
+    background: #212629;
+    border: 1px solid #A8894B;
+    color: white;
+}
+.cuadroBlanco input .curso-aparte:hover{
+    border-color: #DFD19C;
+}
+.cuadroBlanco form .division-aparte{
+    position: relative;
+    top: 500;
+    width: 280;
+    left:700;
+    color: #FFFFFF;
+}
+.cuadroBlanco form .division-form{
+    box-sizing: border-box;
+    position: absolute;
+    width: 307px;
+    height: 34px;
+    left: 510px;
+    top: 215px;
+    background: #212629;
+    border: 1px solid #A8894B;
+    color: white;
+}
+.cuadroBlanco form .division-form:hover{
+    border-color: #DFD19C;
+}
+
+.cuadroBlanco [type="button"]{
+    position: absolute;
+    margin-left: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    background: #A8894B;
+    border-radius: 20px;
+    margin-top:10px ;
+    width: 200px;
+    height: 34px;
+    left: 400px;
+} 
