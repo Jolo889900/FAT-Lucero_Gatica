@@ -137,10 +137,10 @@ const inspectMatter = () =>{
 
 
 const searchMatter = () =>{
-    let materias=document.querySelector('.busqueda').value;
+    let matters=document.querySelector('.busqueda').value;
     let tabla=document.querySelector('.resultados')
     matters.forEach(matter => {
-        if(materias === matter.materia){
+        if(matters === matter.materia){
             tabla.innerHTML=`<td>${matter.materia}</td>
             <td>${matter.curso}</td>
             <td>${matter.profesor}</td>`
@@ -161,8 +161,8 @@ const inspectDeprecatedMatter = () =>{
                     divContenerdor.appendChild(tr)
                     materias.classList.add('materias','desaprobado')
                     nameMatter.innerHTML = matter[i].name
-                    noteMatter.innerHTML = matter.note
-                    stateMatter.innerHTML = matter.state
+                    noteMatter.innerHTML = matter[i].note
+                    stateMatter.innerHTML = matter[i].state
                 }
             }
         })
