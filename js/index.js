@@ -4,7 +4,7 @@ let admins=[
         pass:'admin'
     }];
 
-
+ 
 /* Creating an array of objects. */
 let alumnos=[
     {
