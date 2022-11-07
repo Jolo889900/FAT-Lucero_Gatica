@@ -19,7 +19,7 @@
             <div class="forma_fondo1"></div>
             <div class="contenedor-agregar-alumno">
                
-                <form action="" class="formulario">
+                <form action="guardar.php" method="POST" class="formulario" >
                     <h4>NOMBRE Y APELLIDO</h4>
                     <input  required type="text" class="nombre" placeholder="NOMBRE del Alumno">
                     <h4>DNI</h4>
@@ -36,9 +36,11 @@
                     <input   type="text" class="contraseña" placeholder="Contraseña de la cuenta de usuario" required>
                 </form>
                 <section class="buttonSend">
-                    <button class="sendButton" type="button" onclick='createUser()'>Agregar Alumno</button>
+                    <button class="sendButton" type="submit" onclick='createUser()'>Agregar Alumno</button>
                 </section>
         </main>
+
+        
 
         <script src="js/index.js"></script>
     </body>
